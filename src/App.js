@@ -1,37 +1,24 @@
-import React from 'react'
-import Header from './Header'
-import Combine from './Combine'
+import React from 'react';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import Store from './Store';
+import Home from './Home';
+import BigHead from './BigHead';
+import Footer from './Footer';
+import Main from './Main';
 
-import ContactUs from './ContactUs'
-import About from './About'
-import Investment from './Investment'
-import { Route, Routes } from 'react-router-dom';
-import Referrals from './Referral'
-
-
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css'
-
-
-const App = () => {
+function App() {
   return (
-    <div className='app'>
-   
-<Header/>
-
-
-<Routes>
-      <Route path='/' element={<Combine/>}/>
-      <Route path='/ContactUs' element={<ContactUs/>}/>
-      <Route path='/Investment' element={<Investment/>}/>
-      <Route path='/About' element={<About/>}/>
-      <Route path='/Combine' element={<Combine/>}/>
-      <Route path='/Referrals' element={<Referrals/>}/>
-
-    </Routes>
- 
+    <div>
+      <BigHead />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/store" element={<Store />} />
+        <Route path="/main" element={<Main />} />
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
