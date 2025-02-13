@@ -5,6 +5,8 @@ import Home from './Home';
 import BigHead from './BigHead';
 import Footer from './Footer';
 import Main from './Main';
+import SingleProduct from './Singleproduct'
+
 
 function App() {
   return (
@@ -16,7 +18,10 @@ function App() {
         <Route path="/main" element={<Main />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+      <SingleProduct/>
       <Footer />
+ 
+      
     </div>
   );
 }
