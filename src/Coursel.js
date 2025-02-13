@@ -5,9 +5,9 @@ import Slidethree from './images/Rectangle 33.png';
 import Slidefour from './images/Rectangle 34.png';
 import Slidefive from './images/Rectangle 35.png';
 import Slidesix from './images/Rectangle 30.png';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Polygon from './images/Polygon 4.png';
 import PolygonTwo from './images/Polygon 5.png';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Coursel = () => {
   const products = [
@@ -39,17 +39,16 @@ const Coursel = () => {
     <div>
       <div className='container text-center d-flex slide-flex px-5 py-5'>
         {currentProducts.map((product) => (
-          <div key={product.id} className=' w-25 px-5'>
+          <div key={product.id} className='w-25 px-5'>
             <img src={product.image} alt={product.name} />
             <p>{product.price}</p>
           </div>
         ))}
       </div>
-<div className='slide-mars'>
-<img src={PolygonTwo} alt='polygon' onClick={goToPrev} className='mx-5 my-5 ' />
-
-<img src={Polygon} alt='polygon' onClick={goToNext} className='mx-5 my-5'  />
-</div>
+      <div className='slide-mars'>
+        <img src={PolygonTwo} alt='polygon' onClick={goToPrev} className='mx-5 my-5' />
+        <img src={Polygon} alt='polygon' onClick={goToNext} className='mx-5 my-5' />
+      </div>
     </div>
   );
 };

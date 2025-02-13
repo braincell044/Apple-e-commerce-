@@ -36,7 +36,7 @@
 
 }
 .slide{
-  background-image: url('images/Rectangle 10.png');
+  background-image: url('./images/Rectangle\ 10.png');
   background-position:center;
   background-size:auto;
   width: 417px;
@@ -47,7 +47,7 @@ opacity: 0px;
 
 }
 .slide-2{
-  background-image: url('images/Rectangle\ 12.png');
+  background-image: url('./images/Rectangle\ 12.png');
   background-position:center;
   background-size:auto;
   width: 407px;
@@ -58,7 +58,7 @@ opacity: 0px;
 
 }
 .slide-3{
-  background-image: url('images/Rectangle\ 12\ \(1\).png');
+  background-image: url('./images/Rectangle\ 12\ \(1\).png');
   background-position:center;
   background-size:auto;
   width: 417px;
@@ -93,7 +93,7 @@ border: none;
   height: 6px;
 }
 .iphone{
-  background-image: url('./images/Rectangle 39.png');
+  background-image: url('./images/Rectangle\ 36.png');
   background-position:center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -108,7 +108,7 @@ box-shadow: 0px 4px 4px 0px #00000040;
 
 }
 .iphonetwo{
-  background-image: url('./images/Rectangle 41.png');
+  background-image: url('./images/Rectangle\ 41.png');
   background-position:center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -123,7 +123,7 @@ box-shadow: 0px 4px 4px 0px #00000040;
 
 }
 .iphonethree{
-  background-image: url('./images/Rectangle 39.png');
+  background-image: url('./images/Rectangle\ 39.png');
   background-position:center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -139,7 +139,7 @@ box-shadow: 0px 4px 4px 0px #00000040;
 
 }
 .mac{
-  background-image: url('./images/Rectangle 36.png');
+  background-image: url('./images/Rectangle\ 36.png');
   background-position:center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -154,7 +154,7 @@ box-shadow: 0px 4px 4px 0px #00000040;
 
 }
 .mactwo{
-  background-image: url('./images/Rectangle 37.png');
+  background-image: url('./images/Rectangle\ 37.png');
   background-position:center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -169,7 +169,7 @@ box-shadow: 0px 4px 4px 0px #00000040;
 
 }
 .macthree{
-  background-image: url('./images/Rectangle 38.png');
+  background-image: url('./images//Rectangle\ 38.png');
   background-position:center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -184,7 +184,7 @@ box-shadow: 0px 4px 4px 0px #00000040;
 
 }
 .ipad{
-  background-image: url('./images/Rectangle 42.png');
+  background-image: url('./images/Rectangle\ 42.png');
   background-position:center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -199,7 +199,7 @@ box-shadow: 0px 4px 4px 0px #00000040;
 
 }
 .ipadtwo{
-  background-image: url('./images/Rectangle 43.png');
+  background-image: url('./images/Rectangle\ 43.png');
   background-position:center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -213,8 +213,8 @@ opacity: 0px;
 box-shadow: 0px 4px 4px 0px #00000040;
 
 }
-.ipadthree{
-  background-image: url('./images/Rectangle 44.png');
+.iphonethree{
+  background-image: url('./images/Rectangle\ 39.png');
   background-position:center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -226,6 +226,7 @@ gap: 0px;
 border-radius: 30px 0px 0px 0px;
 opacity: 0px;
 box-shadow: 0px 4px 4px 0px #00000040;
+
 
 }
 .grid{
@@ -263,7 +264,7 @@ color: black;
 
 }
 .gridfour{
-  background-image: url('./images/Rectangle\ 17.png');
+  background-image: url('./images//Rectangle\ 17.png');
   background-position:center;
   background-size:cover;
   background-repeat: no-repeat;
